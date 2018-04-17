@@ -1,7 +1,7 @@
 
-
-
-SalaryData <- read.csv("D:/Machine Learning/Marketing Research and Analytics/Salary.csv")
+#USING REGRESSION FOR ANALYSING IMPACT OF IndependentVariables on DependentVariable
+#USING LASSO TO HELP FIND SELECT FEATURES FOR ANALYSIS
+SalaryData <- read.csv("PATH/Salary.csv")
 str(SalaryData)
 summary(SalaryData)
 Salary <- SalaryData[ , 2]
