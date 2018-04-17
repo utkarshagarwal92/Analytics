@@ -1,6 +1,6 @@
-hs.train <- read.csv("D:/Machine Learning/train.csv", header = TRUE)
-p.test <-  read.csv("D:/Machine Learning/week 3/energy_renewed/test.csv", header = TRUE)
-ps.smotetest<- read.csv("D:/Machine Learning/week 3/energy_renewed//testsmote/train.csv")
+hs.train <- read.csv("PATH/train.csv", header = TRUE)
+p.test <-  read.csv("PATH/test.csv", header = TRUE)
+ps.smotetest<- read.csv("PATH/testsmote/train.csv")
 
 library(Amelia)
 
